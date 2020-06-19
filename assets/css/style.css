@@ -25,6 +25,7 @@ body {
     color: #d9dcd6;
 }
 
+/*FIX: Nav tag not recognized in css*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
