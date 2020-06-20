@@ -1,9 +1,11 @@
+/* Style for entire page*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Setting background color for entire page */
 body {
     background-color: #d9dcd6;
 }
@@ -16,17 +18,18 @@ body {
     color: #ffffff;
 }
 
-.header h1 {
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+/* color "seo" only */
+.seo {
     color: #d9dcd6;
 }
 
-/*FIX: Nav tag not recognized in css*/
-.header nav {
+/*FIX: nav tag not recognized in css*/
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -34,15 +37,16 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
+ul {
     list-style-type: none;
 }
 
-.header nav ul li {
+li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* link colors */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -58,7 +62,7 @@ a {
     background-position: center;
 }
 
-/*Content Section*/
+/*Content/Main Section*/
 .content {
     width: 75%;
     display: inline-block;
@@ -82,11 +86,13 @@ p {
     max-height: 200px;
 }
 
+/* float pic */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* float pic */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -126,13 +132,13 @@ p {
 }
 
 /*Footer Section*/
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
