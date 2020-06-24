@@ -1,6 +1,6 @@
 # Accessible Website for Horiseon
 
-This source code provides an outline for accessible websites. This code is optimized for screen readers and search engines. 
+This source code provides an example of an accessible website. This code is optimized for screen readers and search engines. 
 
 ## Included Criteria
 

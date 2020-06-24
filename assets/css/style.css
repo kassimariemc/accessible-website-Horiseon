@@ -1,5 +1,6 @@
 /* for entire page*/
 * {
+    /* CSS reset */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -53,18 +54,18 @@ a {
 
 /* Main Pic Section */
 figure {
+    background-image: url("https://unc.bootcampcontent.com/UNC-Coding-Boot-Camp/unc-cary-fsf-pt-06-2020-u-c/raw/master/01-html-css-git/homework/develop/assets/images/digital-marketing-meeting.jpg");
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("https://unc.bootcampcontent.com/UNC-Coding-Boot-Camp/unc-cary-fsf-pt-06-2020-u-c/raw/master/01-html-css-git/homework/develop/assets/images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
 
 /* Content/Main Section */
 main {
-    width: 75%;
     display: inline-block;
+    width: 75%;
     margin-left: 20px;
 }
 
