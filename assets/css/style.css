@@ -54,7 +54,7 @@ a {
 
 /* Main Pic Section */
 figure {
-    background-image: url("https://unc.bootcampcontent.com/UNC-Coding-Boot-Camp/unc-cary-fsf-pt-06-2020-u-c/raw/master/01-html-css-git/homework/develop/assets/images/digital-marketing-meeting.jpg");
+    background-image: url(../images/digital-marketing-meeting.jpg);
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
